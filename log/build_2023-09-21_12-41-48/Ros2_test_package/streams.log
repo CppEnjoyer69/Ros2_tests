@@ -1,0 +1,29 @@
+[0.006s] Invoking command in '/home/rafal/dev_ws/src/my_package/build/Ros2_test_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rafal/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/rafal/dev_ws/src/my_package/install/Ros2_test_package
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.192s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.199s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.372s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.405s] WARNING: Package name "Ros2_test_package" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.411s] -- Configuring incomplete, errors occurred!
+[0.411s] See also "/home/rafal/dev_ws/src/my_package/build/Ros2_test_package/CMakeFiles/CMakeOutput.log".
+[0.411s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.411s]   ament_package_xml() package name 'Ros2_test_package' in '/package.xml' does
+[0.411s]   not match current PROJECT_NAME 'my_package'.  You must call project() with
+[0.411s]   the same package name before.
+[0.411s] Call Stack (most recent call first):
+[0.411s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.411s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.411s] 
+[0.411s] [0m
+[0.415s] Invoked command in '/home/rafal/dev_ws/src/my_package/build/Ros2_test_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rafal/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/rafal/dev_ws/src/my_package/install/Ros2_test_package
